@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ridiculous-screenshot-thing",
+  "version": "${version}",
+  "name": "Ridiculous Screenshot Thing",
+  "description": "Ridiculous screenshot thing",
+  "authors": [
+    "lucyydotp"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ridiculous-screenshot-thing/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.lucypoulton.screenshot.RidiculousScreenshotThing"
+    ]
+  },
+  "mixins": [
+    "ridiculous-screenshot-thing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
